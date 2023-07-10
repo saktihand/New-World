@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController">
+   <children>
+      <ImageView fitHeight="232.0" fitWidth="479.0" layoutX="25.0" layoutY="275.0">
+         <image>
+            <Image url="@../../../../../../Downloads/about%20me/about%20me/photo/Screenshot_2023-07-08_235803-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="270.0" fitWidth="479.0" layoutX="25.0" layoutY="607.0">
+         <image>
+            <Image url="@../../../../../../Downloads/about%20me/about%20me/photo/Screenshot_2023-07-08_235803-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="264.0" fitWidth="528.0" layoutX="264.0" layoutY="428.0">
+         <image>
+            <Image url="@../../../../../../Downloads/about%20me/about%20me/photo/Screenshot_2023-07-09_023608-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="264.0" fitWidth="414.0" layoutX="1139.0" layoutY="428.0">
+         <image>
+            <Image url="@../../../../../../Downloads/about%20me/about%20me/photo/Screenshot_2023-07-09_023608-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="232.0" fitWidth="479.0" layoutX="870.0" layoutY="271.0">
+         <image>
+            <Image url="@../../../../../../Downloads/about%20me/about%20me/photo/Screenshot_2023-07-08_235803-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="270.0" fitWidth="479.0" layoutX="886.0" layoutY="613.0">
+         <image>
+            <Image url="@../../../../../../Downloads/about%20me/about%20me/photo/Screenshot_2023-07-08_235803-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="710.0" layoutY="667.0" prefHeight="170.0" prefWidth="187.0" styleClass="edit1" stylesheets="@stylesheets.css" />
+      <AnchorPane layoutX="712.0" layoutY="460.0" prefHeight="176.0" prefWidth="187.0" styleClass="edit1" stylesheets="@stylesheets.css" />
+      <AnchorPane layoutX="713.0" layoutY="287.0" prefHeight="146.0" prefWidth="187.0" styleClass="edit1" stylesheets="@stylesheets.css" />
+      <Text layoutX="223.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cara Order atau Memulai Kegiatan" wrappingWidth="334.77374267578125">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="168.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pertama, user klik tulisan &quot;Order&quot; yang ada di bar dan user akan membuka halaman &quot;Order&quot;" wrappingWidth="235.30706787109375">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="372.0" layoutY="515.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kedua, user mengisi semua pertanyaan yang ada di halaman &quot;Order&quot; seperti mengisi alamat Kota, Kecamatan, Rt/Rw dan upload foto. Disitu user juga dapat mencari daerah asalnya lebih dekat dengan bantuan google maps." wrappingWidth="263.30706787109375">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="182.0" layoutY="708.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ketiga, jika user sudah mengisi semua pertanyaan user klik tombol submit dan otomatis akan terkirim kepada pihak komunitas." wrappingWidth="220.1070556640625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="1027.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pertama, User klik tulisan &quot;Donate&quot; yang ada di bar dan user akan membuka halaman &quot;Donate&quot;" wrappingWidth="220.1070556640625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="1240.0" layoutY="523.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kedua, user bisa melakukan donasi dengan adanya no rek/barcode yang sudah di siapkan, user mengisi semua pertanyaan dengan sesuai" wrappingWidth="211.30706787109375">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="1015.0" layoutY="714.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ketiga, jika sudah mengisi semua pertanyaan maka user klik tombol submit dan mentransfer uang yang akan di donasikan dengan jumlah sesuai dengan yang di isi." wrappingWidth="235.3070678710937">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="1158.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cara untuk donasi " wrappingWidth="177.72027587890625">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="669.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cara untuk melihat informasi jadwal dan logistik" textAlignment="CENTER" wrappingWidth="275.2640380859375">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="735.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pertama, user klik menu news untuk melihat Informasi terkait kegiatan yang akan datang." textAlignment="CENTER" wrappingWidth="143.95013427734375">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="128.0" fitWidth="166.0" layoutX="413.0" layoutY="680.0">
+         <image>
+            <Image url="@../../../../../../Downloads/about%20me/about%20me/photo/273-2736071_number-three-3-digit-gambar-angka-3-keren-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="128.0" fitWidth="152.0" layoutX="411.0" layoutY="328.0">
+         <image>
+            <Image url="@../../../../../../Downloads/about%20me/about%20me/photo/icon-angka-png-12-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="648.0" layoutY="96.0" prefHeight="84.0" prefWidth="316.0" styleClass="edit1" stylesheets="@stylesheets.css" />
+      <ImageView fitHeight="133.0" fitWidth="164.0" layoutX="182.0" layoutY="490.0">
+         <image>
+            <Image url="@../../../../../../Downloads/about%20me/about%20me/photo/png-clipart-blue-number-light-video-number-blue-text-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="128.0" fitWidth="152.0" layoutX="1260.0" layoutY="330.0">
+         <image>
+            <Image url="@../../../../../../Downloads/about%20me/about%20me/photo/icon-angka-png-12-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="164.0" layoutX="1027.0" layoutY="493.0">
+         <image>
+            <Image url="@../../../../../../Downloads/about%20me/about%20me/photo/png-clipart-blue-number-light-video-number-blue-text-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="128.0" fitWidth="166.0" layoutX="1253.0" layoutY="684.0">
+         <image>
+            <Image url="@../../../../../../Downloads/about%20me/about%20me/photo/273-2736071_number-three-3-digit-gambar-angka-3-keren-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="60.0" layoutY="46.0" mnemonicParsing="false" onAction="#menuApp" prefHeight="1.0" prefWidth="16.0" style="-fx-background-color: trasnparent;">
+         <graphic>
+            <FontAwesomeIcon fill="#0598ff" glyphName="ARROW_LEFT" size="20" />
+         </graphic>
+      </Button>
+      <ImageView fitHeight="46.0" fitWidth="58.0" layoutX="105.0" layoutY="38.0">
+         <image>
+            <Image url="@../../../../../../Downloads/christmas_2012_new_6457-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Text fill="#0598ff" layoutX="183.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACTONT" wrappingWidth="164.0">
+         <font>
+            <Font name="Garamond" size="40.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="757.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HELP">
+         <font>
+            <Font name="Garamond Bold" size="35.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text layoutX="709.0" layoutY="502.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kedua, kita akan mendapatkan informasi kegiatan - kegiatan pelaksanaan kebersihan lingkungan termasuk kegiatan kita sendiri." textAlignment="CENTER" wrappingWidth="195.30706787109375">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="733.0" layoutY="694.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ketiga, pengguna memilih  kegiatan yang dituju dan disitu terdapat informasi tentang kegiatan tersebut." textAlignment="CENTER" wrappingWidth="143.95013427734375">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController">
+   <children>
+      <AnchorPane layoutX="-4.0" layoutY="100.0" prefHeight="800.0" prefWidth="428.0" styleClass="edit1" stylesheets="@stylesheets.css" />
+      <Button layoutX="59.0" layoutY="46.0" mnemonicParsing="false" onAction="#menuInfor" prefHeight="1.0" prefWidth="16.0" style="-fx-background-color: trasnparent;">
+         <graphic>
+            <FontAwesomeIcon fill="#0598ff" glyphName="ARROW_LEFT" size="20" />
+         </graphic>
+      </Button>
+      <ImageView fitHeight="46.0" fitWidth="58.0" layoutX="104.0" layoutY="38.0">
+         <image>
+            <Image url="@../../../../../../Downloads/christmas_2012_new_6457-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Text fill="#0598ff" layoutX="182.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACTONT" wrappingWidth="164.0">
+         <font>
+            <Font name="Garamond" size="40.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="1172.0" layoutY="99.0" prefHeight="801.0" prefWidth="428.0" styleClass="edit1" stylesheets="@stylesheets.css" />
+      <Text layoutX="684.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Informasi Kegiatan">
+         <font>
+            <Font name="Garamond" size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="591.0" layoutY="553.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acara Kegiatan    :" wrappingWidth="158.81835937499994">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="592.0" layoutY="635.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jadwal Kegiatan  : Selasa, 13 Juli 2023">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="597.0" layoutY="684.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alat - alat           :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="586.0" layoutY="798.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Solusi Perawatan :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="592.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tempat Kegiatan : Mendolo Kidul">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="757.0" layoutY="553.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kerja bakti membersihkan sampah di sepanjang jalan Desa Mendolo Kidul." wrappingWidth="330.3124999999999">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="757.0" layoutY="684.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. 5 Sapu lidi       2. 10 Sekop tanah 3. 4 Gunting pohon" wrappingWidth="164.00000000000003">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="754.0" layoutY="801.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Merawat struktur tanah agar pada saat hujan tanah di pinggir jalan tidak bergerak ke jalan aspal desa" wrappingWidth="350.2940673828125">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="242.0" fitWidth="401.0" layoutX="609.0" layoutY="192.0">
+         <image>
+            <Image url="@../../../../../../Downloads/images.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

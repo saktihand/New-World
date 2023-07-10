@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" style="-fx-border-color: #0595ff; -fx-border-width: 0px 0px 2px 0px;" styleClass="edit3" stylesheets="@stylesheets.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController">
+   <children>
+      <VBox layoutX="788.0" layoutY="226.0" prefHeight="407.0" prefWidth="444.0" styleClass="edit4" stylesheets="@stylesheets.css" />
+      <Button fx:id="btnLog" layoutX="960.0" layoutY="491.0" mnemonicParsing="false" onAction="#btnLoginClicked" prefHeight="38.0" prefWidth="99.0" style="-fx-background-color: #0598ff;" text="Login" textFill="WHITE" />
+      <TextField fx:id="passwordText" layoutX="888.0" layoutY="367.0" prefHeight="52.0" prefWidth="274.0" style="-fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+      <PasswordField fx:id="passwordHidden" layoutX="888.0" layoutY="367.0" prefHeight="52.0" prefWidth="274.0" promptText="Password" style="-fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+      <TextField fx:id="tfTitle" layoutX="888.0" layoutY="290.0" prefHeight="52.0" prefWidth="274.0" promptText="Email address or Username" style="-fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+      <FontAwesomeIcon fill="#0598ff" glyphName="KEY" layoutX="848.0" layoutY="410.0" size="20" />
+      <FontAwesomeIcon fill="#0598ff" glyphName="USER" layoutX="850.0" layoutY="333.0" size="20" />
+      <Button layoutX="340.0" layoutY="14.0" minWidth="34.0" mnemonicParsing="false" onAction="#exit" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: transparent;" />
+      <ImageView fx:id="Logo" fitHeight="306.0" fitWidth="314.0" layoutX="357.0" layoutY="266.0">
+         <image>
+            <Image url="@../../../../../../Downloads/christmas_2012_new_6457-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="labelRegis" layoutX="850.0" layoutY="559.0" mnemonicParsing="false" onMouseClicked="#tampilRegistrasi" style="-fx-background-color: transparent;" text="Create New Account" textFill="#0598ff" />
+      <Label layoutX="439.0" layoutY="226.0" prefHeight="52.0" prefWidth="150.0" text="ACTONT">
+         <font>
+            <Font name="Garamond" size="35.0" />
+         </font>
+      </Label>
+      <Text layoutX="348.0" layoutY="569.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Make life more meaningful" wrappingWidth="332.76519775390625">
+         <font>
+            <Font name="Garamond" size="31.0" />
+         </font>
+      </Text>
+      <Button layoutX="1515.0" layoutY="26.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: transparent;">
+         <graphic>
+            <FontAwesomeIcon fill="#0598ff" glyphName="CLOSE" onDragDetected="#exit" size="20" />
+         </graphic>
+      </Button>
+      <Button fx:id="labelpassword" layoutX="1051.0" layoutY="559.0" mnemonicParsing="false" onMouseClicked="#tampilPassword" style="-fx-background-color: transparent;" text="Forgot Password?" textFill="#0598ff" />
+      <CheckBox fx:id="checkBox" layoutX="1059.0" layoutY="441.0" mnemonicParsing="false" onAction="#changeVisibility" text="Show Password" />
+   </children>
+</AnchorPane>

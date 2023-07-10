@@ -1,0 +1,22 @@
+
+.edit1 {
+    -fx-background-color: linear-gradient(to bottom,rgb(114, 207, 130),rgb(87, 181, 232));
+}
+.edit2 {
+    -fx-background-color: linear-gradient(to bottom,rgb(255, 255, 255),rgb(255, 255, 255));
+}
+.coverbg {
+    -fx-background-color: rgb(186, 186, 186) linear;
+}
+.edit4 {
+    -fx-background-color: white linear;
+}
+.edit5 {
+    -fx-background-color: conic-gradient(to bottom, rgb(114, 207, 130), rgb(133, 86, 227));
+}
+.greenbg {
+    -fx-background-color: rgb(115, 203, 115) linear;
+}
+.testcss {
+    -fx-background-color: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}

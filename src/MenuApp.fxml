@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="882.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="-3.0" prefHeight="92.0" prefWidth="1600.0" stylesheets="@stylesheets.css">
+         <children>
+            <Button layoutX="1529.0" layoutY="24.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: transparent;">
+               <graphic>
+                  <FontAwesomeIcon fill="#0598ff" glyphName="CLOSE" onDragDetected="#exit" size="20" />
+               </graphic>
+            </Button>
+            <Button layoutX="661.0" layoutY="32.0" mnemonicParsing="false" onAction="#btnNews" style="-fx-background-color: transparent;" text="News" textFill="#0598ff">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="485.0" layoutY="31.0" mnemonicParsing="false" onAction="#btnOrder" style="-fx-background-color: transparent;" text="Order" textFill="#0598ff">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="1036.0" layoutY="33.0" mnemonicParsing="false" onAction="#btnHelp" style="-fx-background-color: transparent;" text="Help" textFill="#0598ff">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnDon" layoutX="834.0" layoutY="33.0" mnemonicParsing="false" onAction="#btnDonate" style="-fx-background-color: transparent;" text="Donate" textFill="#0598ff">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="1305.0" layoutY="42.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+               <graphic>
+                  <FontAwesomeIcon fill="#0598ff" glyphName="BELL" size="20" />
+               </graphic>
+            </Button>
+            <Button fx:id="btnUser" layoutX="1349.0" layoutY="42.0" mnemonicParsing="false" onAction="#btnUser" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <FontAwesomeIcon fill="#0598ff" glyphName="USER" onDragDetected="#btnUser" size="20" />
+               </graphic>
+            </Button>
+         </children></AnchorPane>
+      <ScrollPane layoutX="26.0" layoutY="89.0" prefHeight="789.0" prefWidth="1543.0" styleClass="testcss" stylesheets="@stylesheets.css">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1186.0" prefWidth="1558.0" styleClass="edit1" stylesheets="@stylesheets.css">
+               <children>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="713.0" style="-fx-background-color: WHITE;" stylesheets="@stylesheets.css">
+                     <padding>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </padding>
+                     <children>
+                        <Text layoutX="239.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Program Lingkungan">
+                           <font>
+                              <Font size="29.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#45ac8d" layoutX="236.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACTONT">
+                           <font>
+                              <Font name="System Bold" size="70.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="239.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kami percaya dalam memastikan keberlanjutan lingkungan nusantara yang hijau dan bersih. Kami berusaha untuk secara proaktif meminimalkan masalah lingkungan berdasarkan prioritas sosial. Demikian pula, kami akan memperluas dan mengenalkan program ini dan akan selalu bekerjasama dengan mitra lingkungan dan mendidik masyarakat tentang norma sosial yang relevan dengan komunitas lingkungan . Kesadaran kami yang membuat peran kami akan lebih bermanfaat bagi nusantara. " textAlignment="JUSTIFY" wrappingWidth="444.91546630859375">
+                           <font>
+                              <Font size="24.0" />
+                           </font></Text>
+                        <AnchorPane layoutY="-1.0" prefHeight="1191.0" prefWidth="200.0" style="-fx-background-color: #0598FF;" />
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="947.0" fitWidth="964.0" layoutX="641.0" layoutY="61.0" opacity="0.5">
+                     <image>
+                        <Image url="@../../../../../../Downloads/Climate%20change-rafiki.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="196.0" fitWidth="98.0" layoutX="401.0" layoutY="866.0">
+                     <image>
+                        <Image url="@../../../../../../Downloads/WhatsApp_Image_2023-07-08_at_12.28.18-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="502.0" layoutY="956.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mewujudkan pencegahan kerusakan lingkungan hidup" wrappingWidth="231.081298828125">
+                     <font>
+                        <Font name="Garamond" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="848.0" layoutY="952.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menumbuh kembangkan partisipasi pemuda dan masyarakat dalam rangka melestarikan lingkungan" wrappingWidth="275.41143798828125">
+                     <font>
+                        <Font name="Garamond" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="502.0" layoutY="1069.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memantapkan kepedulian, kemandirian untuk perbaikan kerusakan dan pengendalian pencemaran lingkungan" wrappingWidth="275.14776611328125">
+                     <font>
+                        <Font name="Garamond" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="848.0" layoutY="1065.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meningkatkan kapasitas dan keterampilan kerja pemuda dan masyarakat dalam bidang pencegahan dan perbaikan kerusakan lingkungan" wrappingWidth="275.90789794921875">
+                     <font>
+                        <Font name="Garamond" size="20.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="101.0" fitWidth="75.0" layoutX="401.0" layoutY="1038.0">
+                     <image>
+                        <Image url="@../../../../../../Downloads/WhatsApp_Image_2023-07-08_at_12.59.09-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="131.0" fitWidth="75.0" layoutX="1136.0" layoutY="905.0">
+                     <image>
+                        <Image url="@../../../../../../Downloads/WhatsApp_Image_2023-07-08_at_12.59.22-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="127.0" fitWidth="88.0" layoutX="1128.0" layoutY="1024.0">
+                     <image>
+                        <Image url="@../../../../../../Downloads/WhatsApp_Image_2023-07-08_at_12.59.23-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="261.0" fitWidth="471.0" layoutX="234.0" layoutY="661.0">
+                     <image>
+                        <Image url="@../../../../../../Downloads/—Pngtree—white%20dialogue%20box%20in%20cloud_4284272.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="333.0" layoutY="793.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apa yang kita perjuangkan?" textAlignment="CENTER" wrappingWidth="286.1333312988281">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
+      <ImageView fitHeight="74.0" fitWidth="76.0" layoutX="26.0" layoutY="14.0">
+         <image>
+            <Image url="@../../../../../../Downloads/christmas_2012_new_6457-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

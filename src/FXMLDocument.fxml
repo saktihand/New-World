@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+    <children>
+        <Button fx:id="buttonsubmit" layoutX="1025.0" layoutY="544.0" onAction="#handleButtonAction" prefHeight="58.0" prefWidth="156.0" style="-fx-background-color: #0598ff;" text="Submit" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Label layoutX="303.0" layoutY="204.0" prefHeight="29.0" prefWidth="122.0" text="Nama Rekening">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldNamaRekening" layoutX="301.0" layoutY="236.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="544.0" promptText="Input nama rekening">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <Label layoutX="302.0" layoutY="298.0" prefHeight="30.0" prefWidth="170.0" text="No Rekeking/No tlpn">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldNoRekening" layoutX="300.0" layoutY="328.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="544.0" promptText="cnth; 22987347686/081223233453">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <Label layoutX="302.0" layoutY="394.0" prefHeight="30.0" prefWidth="167.0" text="Nama Bank Pengirim">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldNamaBank" layoutX="300.0" layoutY="423.0" onAction="#handleButtonAction" prefHeight="38.0" prefWidth="205.0" promptText="BCA/Mandiri/DANA" />
+      <Label layoutX="302.0" layoutY="470.0" prefHeight="30.0" prefWidth="141.0" text="Nominal Transaksi">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldNominal" layoutX="300.0" layoutY="499.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="544.0" promptText="cnth; 100.000" text="Rp.">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <Label layoutX="302.0" layoutY="559.0" prefHeight="29.0" prefWidth="122.0" text="Keterangan">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldKeterangan" layoutX="300.0" layoutY="588.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="544.0" promptText="input keterangan jika ada">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <DatePicker fx:id="textDatePicker" layoutX="540.0" layoutY="423.0" prefHeight="38.0" prefWidth="301.0" promptText="Input tanggal transaksi" />
+      <Label layoutX="540.0" layoutY="394.0" prefHeight="30.0" prefWidth="139.0" text="Tanggal Transaksi">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" fixedCellSize="-20.0" layoutX="300.0" layoutY="653.0" prefHeight="238.0" prefWidth="978.0">
+        <columns>
+          <TableColumn fx:id="tblNamaRekening" minWidth="0.0" prefWidth="164.79998779296875" text="Nama Rekening" />
+            <TableColumn fx:id="tblNoRekening" minWidth="0.0" prefWidth="188.79995727539062" text="No Rekening" />
+            <TableColumn fx:id="tblNamaBank" minWidth="0.0" prefWidth="205.60003662109375" text="Nama Bank" />
+            <TableColumn fx:id="tbltanggal" minWidth="0.0" prefWidth="211.199951171875" text="Tanggal Transaksi" />
+            <TableColumn fx:id="tblNominal" minWidth="0.0" prefWidth="235.4666748046875" text="Nominal" />
+          <TableColumn fx:id="tblKeterangan" minWidth="0.0" prefWidth="541.3333740234375" text="Keterangan" />
+        </columns>
+      </TableView>
+      <Button layoutX="50.0" layoutY="61.0" mnemonicParsing="false" onAction="#menuApp" prefHeight="1.0" prefWidth="16.0" style="-fx-background-color: trasnparent;">
+         <graphic>
+            <FontAwesomeIcon fill="#0598ff" glyphName="ARROW_LEFT" size="20" />
+         </graphic>
+      </Button>
+      <ImageView fitHeight="46.0" fitWidth="58.0" layoutX="98.0" layoutY="53.0">
+         <image>
+            <Image url="@../../../../../../Downloads/christmas_2012_new_6457-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Text fill="#0598ff" layoutX="170.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACTONT" wrappingWidth="164.0">
+         <font>
+            <Font name="Garamond" size="40.0" />
+         </font>
+      </Text>
+      <Text layoutX="702.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transaksi Donasi">
+         <font>
+            <Font name="Garamond" size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="1019.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No. Rekening Tujuan">
+         <font>
+            <Font name="Garamond" size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="200.0" fitWidth="199.0" layoutX="1003.0" layoutY="324.0">
+         <image>
+            <Image url="@../../../../../../Downloads/WhatsApp%20Image%202023-07-05%20at%2021.09.56.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-7.0" layoutY="120.0" prefHeight="859.0" prefWidth="262.0" styleClass="edit1" stylesheets="@stylesheets.css" />
+      <AnchorPane layoutX="1328.0" layoutY="125.0" prefHeight="856.0" prefWidth="272.0" styleClass="edit1" stylesheets="@stylesheets.css" />
+      <Text layoutX="1010.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0980445143 (BCA) Sakti Chandra Hanafi" textAlignment="CENTER" wrappingWidth="185.5823974609375">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

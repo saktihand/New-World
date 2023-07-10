@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="606.0" prefWidth="707.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <padding>
+      <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+   </padding>
+   <children>
+      <VBox layoutX="-2.0" layoutY="-1.0" prefHeight="606.0" prefWidth="200.0" style="-fx-background-color: gray;">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="50.0" style="-fx-region-background: transparent;">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../photo%20back/download%20(6).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="160.0" style="-fx-background-color: white;" styleClass="button1-style" text="  Home">
+               <VBox.margin>
+                  <Insets left="20.0" top="140.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../photo%20back/download%20(3).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="160.0" style="-fx-background-color: white;" text="  Ptoject">
+               <VBox.margin>
+                  <Insets left="20.0" top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="33.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../photo%20back/download.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="30.0" layoutY="244.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="160.0" style="-fx-background-color: white;" text="  Donate">
+               <VBox.margin>
+                  <Insets left="20.0" top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../photo%20back/download%20(4).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="30.0" layoutY="339.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="160.0" style="-fx-background-color: white;" text="  Daftar Logistik">
+               <VBox.margin>
+                  <Insets left="20.0" top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../photo%20back/download%20(5).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+      <Text layoutX="232.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Program Lingkungan">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#45ac8d" layoutX="232.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACTONT">
+         <font>
+            <Font name="System Bold" size="70.0" />
+         </font>
+      </Text>
+      <Text layoutX="232.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kami percaya dalam memastikan keberlanjutan lingkungan nusantara yang hijau dan bersih. Kami berusaha untuk secara proaktif meminimalkan masalah lingkungan berdasarkan prioritas sosial. Demikian pula, kami akan memperluas dan mengenalkan program ini dan akan selalu bekerjasama dengan mitra lingkungan dan mendidik masyarakat tentang norma sosial yang relevan dengan komunitas lingkungan . Kesadaran kami yang membuat peran kami akan lebih bermanfaat bagi nusantara. " textAlignment="JUSTIFY" wrappingWidth="444.91546630859375" />
+   </children>
+</AnchorPane>
